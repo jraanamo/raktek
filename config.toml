@@ -1,4 +1,4 @@
-baseurl = "https://rakentaminentekniikka.fi"
+baseurl = ""
 title = "Rakentaminen+Tekniikka"
 theme = "hugo-universal-theme"
 languageCode = "fi"
