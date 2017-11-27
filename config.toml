@@ -1,86 +1,43 @@
-# Tranquilpeak
-# Version : 0.4.3-BETA
-# Author : Thibaud Leprêtre
-
-# I STRONGLY recommend you to use a CDN to speed up loading of pages.
-# There is many free CDN like Cloudinary or you can also use indirectly
-# by using services like Google Photos.
-
-# If you want to store images yourself, please read this guidelines:
-# For users, if you only use this theme, put your images directly in `source/assets/images` folder
-# But if you want to add local images, you can put your images directly in `source/assets/images` folder
-# For developpers, if you modify this theme, put your images in `source/images` folder and
-# use grunt task `build` to synchronize assets
-
-baseURL = "https://house250k.netlify.com"
+baseurl = "https://rakentaminentekniikka.fi"
+title = "Rakentaminen+Tekniikka"
+theme = "hugo-universal-theme"
 languageCode = "fi"
+# Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "fi"
-title = "VillaPasila"
-theme = "hugo-tranquilpeak-theme"
-disqusShortname = "house250k"
-# googleAnalytics = "UA-123-45"
-paginate = 7
-canonifyurls = true
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
 
-[permalinks]
-  post = "/:year/:month/:slug/"
-  blog = "/blog/:year/:month/:day/:filename/"
+# Define the number of posts per page
+paginate = 10
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  archive = "archives"
+[menu]
 
-[author]
-  name = "House250K Builder"
-  bio = "Building a contemporary Scandinavian home"
-  job = "Freelancer"
-  location = "Finland"
-  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  #gravatarEmail = "none@gmail.com"
-  # Your profile picture
-  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "http://res.cloudinary.com/house250k/image/upload/e_blur:100/v1511009200/Avatar_z14t70.png"
-  # Your Twitter username without the @. E.g : thibaudlepretre
-  # twitter = "thibaudlepretre"
-  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
-  # googlePlus = "+ThibaudLepretre"
+# Main menu
 
-# Menu Configuration
 [[menu.main]]
-  weight = 1
-  identifier = "home"
-  name = "Home"
-  url = "/"
+    name = "Alkuun"
+    url  = "/"
+    weight = 1
+
 [[menu.main]]
-  weight = 2
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog"
+    name = "Artikkelit"
+    url  = "/blog/"
+    weight = 2
+
 [[menu.main]]
-  weight = 3
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "/tags"
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
 [[menu.main]]
-  weight = 4
-  identifier = "archives"
-  name = "Archives"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
-  url = "/archives"
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/index.xml"
+    name = "Yhteydenotto"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
@@ -88,94 +45,64 @@ canonifyurls = true
     url = "http://facebook.com"
     pre = "<i class='fa fa-2x fa-facebook'></i>"
 
+[[menu.topbar]]
+    weight = 2
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
 [params]
-  # Customize date format use to render blog post date, categories and other
-  # You must use date format used by Go Time package https://golang.org/pkg/time/
-  # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
-  # Default format is: January 2, 2006 
-  # dateFormat = "2 January 2006"
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
 
-  # Global keywords configuration. Following keywords will be add to every pages
-  # keywords = ["development", "next-gen"]
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-  # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
-  # You can comment it to disable syntax highlighting
-  syntaxHighlighter = "highlight.js"
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
 
-  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
-  clearReading = true
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "your@email.com"
 
-  # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo". 
-  # If false it will flat categories.
-  hierarchicalCategories = true
+    about_us = "<p>Rakentaminen+Tekniikka on pienrakentajilla suunnattu palvelu joka tuottaa omia artikkeleita sekä koostaa yhteen paikaan hyväksi havaittuja resursseja muulta internetistä.</p>"
+    copyright = "Copyright (c) 2017, Rakentaminen+Tekniikka; kaikki oikeudet pidetään."
 
-  description = "Story of building a house in Finland"
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
 
-  # Customization
-  # Define the behavior of the sidebar
-  # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
-  #    medium sidebar on medium screen and header bar on small screen and
-  # extra large sidebar is swiped on extra large screen and large sidebar on all lower screen (default)
-  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
-  #    header bar on small screen and large sidebar is swiped
-  # 3: Display medium sidebar on large and medium screen and header bar on small screen and
-  #    medium sidebar is swiped
-  # 4: Display header bar on all screens, extra large sidebar is swiped on extra large screen and
-  #    large sidebar is swiped on all lower screens
-  # 5: Display header bar on all screens and large sidebar is swiped on large screen
-  # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 1
+    logo = "/img/logo.png"
+    logo_small = "/img/logo.png"
+    address = """<p><strong>Rakentaminen+Tekniikka</strong>
+        <br>Kirkkonummi
+        <br>02480
+        <br>
+        <strong>Finland</strong>
+      </p>
+      """
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
-  # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
-  # There is many free CDN like Cloudinary or you can also use indirectly
-  # by using services like Google Photos.
-  # Current image is on AWS S3 and delivered by AWS CloudFront.
-  # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
-  # and use relative url : `your-image.png`
-  coverImage = "cover_field.jpg"
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
 
-  # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
-  imageGallery = true
-
-  # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
-  thumbnailImage = true
-  # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
-  # Set this value to `right` if you have old posts to keep the old style on them
-  # and define `thumbnailImagePosition` on a post to overwrite this setting
-  thumbnailImagePosition = "bottom"
-  # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
-  # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
-  # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
-  autoThumbnailImage = true
-
-  # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
-
-  # Header configuration
-  # The link at the right of the header is customizable
-  # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.
-  # By default, author's gravatar or author's picture is displayed.
-  #     url: /#search
-  #     icon: search
-  #     class: st-search-show-outputs
-
-  # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
-  # they have to be referred from static root. Example
-  # [[params.customCSS]]
-  #   href = "css/mystyle.css"
-
-  # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
-  # they have to be referred from static root. Example
-  # [[params.customJS]]
-  #   src = "js/myscript.js"
-
-  # Display `Next` on left side of the pagination, and `Prev` on right side one.
-  # If you set this value to `true`, these positions swap.
-  # swapPaginator = true
-
+# Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact hello@foobar.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Ota yhteyttä: info@rakentaminentekniikka.fi</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -186,7 +113,6 @@ canonifyurls = true
     categories = true
     tags = true
     search = true
-
 
 [params.carousel]
     enable = true
@@ -226,41 +152,5 @@ canonifyurls = true
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-
-  # Sharing options
-  # Comment and uncomment to enable or disable sharing options
-  # If you wanna add a sharing option, read user documentation :
-  # Tranquilpeak configuration > Theme configuration > sharing-options
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fa-facebook-official"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
-
-  [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
-
-  [[params.sharingOptions]]
-    name = "Google+"
-    icon = "fa-google-plus"
-    url = "https://plus.google.com/share?url=%s"
-
-  [params.header.rightLink]
-    class = ""
-    icon = ""
-    url = "/#about"
-
-  # Customize link of author avatar in sidebar
-  # [params.sidebar.profile]
-  #   url = "/#about"
-
-  # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
-  # [params.footer]
-  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
-
-[Languages]
-[Languages.en]
-title = "Villa Pasila (en)"
+    title = "Uusimmat artikkelit"
+    subtitle = ""
