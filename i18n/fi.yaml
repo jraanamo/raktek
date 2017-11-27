@@ -1,0 +1,71 @@
+- id: home
+  translation: "Koti"
+
+- id: templateBy
+  translation: "Template by"
+
+- id: portedBy
+  translation: "Ported to Hugo by"
+
+- id: contactGoTo
+  translation: "Lähetä palautetta"
+
+- id: contactAddrTitle
+  translation: "Osoite"
+
+- id: contactTitle
+  translation: "Ota yhteyttä"
+
+- id: contactForm
+  translation: "Yhteydenottolomake"
+
+- id: contactName
+  translation: "Nimesi"
+
+- id: contactMail
+  translation: "Sähköpostiosoite"
+
+- id: contactMessage
+  translation: "Viesti"
+
+- id: contactSend
+  translation: "Lähetä"
+
+- id: navHome
+  translation: "etusivulle"
+
+- id: navToggle
+  translation: "Toggle Navigation"
+
+- id: categoriesTitle
+  translation: "Kategoriat"
+
+- id: searchTitle
+  translation: "Hae"
+
+- id: tagsTitle
+  translation: "Tägit"
+
+- id: continueReading
+  translation: "Jatka lukemista"
+
+- id: readMore
+  translation: "Lue lisää"
+
+- id: authorBy
+  translation: "By"
+
+- id: recentPosts
+  translation: "Uusimmat artikkelit"
+
+- id: aboutUs
+  translation: "Tietoja"
+
+- id: newer
+  translation: "Uudempi"
+
+- id: older
+  translation: "Vanhempi"
+
+- id: publishedOn
+  translation: "on"

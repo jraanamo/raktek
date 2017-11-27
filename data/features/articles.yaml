@@ -1,0 +1,5 @@
+weight: 1
+name: "Sovellukset"
+icon: "fa fa-cube fa-4x"
+description: "Suunnitteluun, mallintamiseen ja rakennusprojektien hallintaan ja dokumentointiin tarvittavia sovelluksia"
+url: "/categories/sovellukset"
