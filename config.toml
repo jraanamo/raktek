@@ -78,7 +78,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>Rakentaminen+Tekniikka on pienrakentajilla suunnattu palvelu joka tuottaa omia artikkeleita sekä koostaa yhteen paikaan hyväksi havaittuja resursseja muulta internetistä.</p>"
+    about_us = "<p>Rakentaminen+Tekniikka koostaa yhteenpaikkaan tietoa ja ratkaisuja joita pienrakentaja tarvitsee viedäkseen tärkeän projektinsa menestyksekkäästi päätökseen.</p>"
     copyright = "Copyright (c) 2017, Rakentaminen+Tekniikka; kaikki oikeudet pidetään."
 
     # Format dates with Go's time formatting
@@ -147,7 +147,7 @@ paginate = 10
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
+    title = "Yhteistyössä"
     subtitle = ""
 
 [params.recent_posts]
