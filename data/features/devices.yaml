@@ -1,0 +1,5 @@
+weight: 4
+name: "Laitteet"
+icon: "fa fa-power-off fa-4x"
+description: "Pienrakentajan tekniset laitteet, työkalut ja apuvälineet"
+url: "/categories/laitteet"

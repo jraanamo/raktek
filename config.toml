@@ -84,17 +84,15 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "/img/logo.png"
+    logo = "/img/rt_logo.png"
     logo_small = "/img/logo.png"
     address = """<p><strong>Rakentaminen+Tekniikka</strong>
-        <br>Kirkkonummi
-        <br>02480
         <br>
-        <strong>Finland</strong>
+        <strong>Suomi, Finland</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "60.115431"
+    longitude = "24.444147"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -102,7 +100,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Ota yhteyttä: info@rakentaminentekniikka.fi</p>
+    text = """<p class="hidden-sm hidden-xs"></p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
