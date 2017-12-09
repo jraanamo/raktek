@@ -21,3 +21,13 @@ Omistaja tai vastaava ei voi aina olla rakennustyömaalla. Jälkikäteen on vaik
 ### Varkaudenesto
 
 Työmailla on aina paljon varkaita hoututtelevia tavaroita. Jos ei kamera varsinaisesti estä varkaita toimimasta saattaa se silti ainakin auttaa välttämään uusia varkauksia kun itse näet miten varkaat ovat toimineet. Toki kannattaa myös lisätä kyltti varoittamaan nauhoittavasta järjestelmästä. Kamera pitää tietysti asentaa sellaiseen paikkaan, ja kiinnittää asianmukaisesti, ettei siitä itsestään tule varkauden kohdetta.
+
+### Oma dokumentointi ja ilo
+
+Jos ei mistään muusta syystä niin lyhyen videon katseleminen on huomattavasti viidyttävämpää kun kymmenet pölyiset kuvat tai pitkät realiaikaiset videot. Rakentaminen kun ei monesti ole kovin nopeaa, tunnissa parissa ei aina tapahdu merkittäviä asioita, on sen katsominen pikakelauksella  ehdottoman tyydyttävää. Hommahan eteenee!
+
+## Brinno BCC100
+
+Yksi Brinnon parhaita puolia on sen käytön helppous. Paketti auki, patterit ja SD -muistikortti sisään ja nauhoitus päälle. Vättämättä mitään muuta ei tarvitse valita kuin kuvan ottamisen intervalli. Koska tämän artikkelin oli tarkoitus olla pikakatsaus, emme lähde esittelemään kaikkia mahdollisia valintoja sen enempää vaan mennään suoraan asiaan.
+
+Asensimme em. kameran testikäyttöön Villa Pasila projektin työmaalle seuraamaan vanhan rakennuksen purkua. Kuvaus väli oli aluksi 30 sekuntia. Sitten kokeilimme yhtä minuuttia mutta totesimme sen liian pitkäksi tähän käyttöön. Kamera myös kuvasi aluksi 24h vuorokaudessa mutta pimeänä aikana tästä ei ole juurikaan iloa ilman infrapuna lisävarusteita. Valikosta löytyi helppo tapa rajoittaa kuvaaminen vain tietyille tunneille.
