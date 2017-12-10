@@ -76,7 +76,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "rakentaminen-tekniikka@kinetik.mobi"
 
     about_us = "<p>Rakentaminen+Tekniikka koostaa yhteenpaikkaan tietoa ja ratkaisuja joita pienrakentaja tarvitsee viedäkseen tärkeän projektinsa menestyksekkäästi päätökseen.</p>"
     copyright = "Copyright (c) 2017, Rakentaminen+Tekniikka; kaikki oikeudet pidetään."
@@ -135,10 +135,10 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "Lisää hyödyllisiä sivustoja?"
+    subtitle = "Voit vihjata meille omasta blogistasi taikka muusta hyödyllisestä sivustosta."
+    link_url = "/contact"
+    link_text = "Ilmoita sivusto"
 
 [params.clients]
     enable = true
