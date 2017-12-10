@@ -9,7 +9,7 @@ keywords:
 description: Vanhan hirsirungon purkamisen 7. päivä
 categories: [villa pasila, blogit]
 tags: [purkaminen, timelapse]
-banner: "/img/villa-pasila/purku-6.jpg"
+banner: "img/villa-pasila/purku-6.jpg"
 
 ---
 
