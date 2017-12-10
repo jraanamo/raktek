@@ -2,9 +2,14 @@
 title: Vähempikin riittää
 date: 2017-11-17 00:00:00 +0000
 keywords:
+- kallioperustus
+- huvila
+- pulpettikatto
+- pystylaudoitus
+description: 150m2 vapaa-ajanrakennus Kirkkonummella
 categories: [villa pasila, blogit]
-tags: []
-banner: "img/villa-pasila/villa-pasila-imac-ipad-3d.png"
+tags: [vaapaa-ajanrakennus, huvila, pulpettikatto, kallioperustus]
+banner: "/img/villa-pasila/julkkarit.png"
 
 ---
 ## Rahalla saa ja hevosella pääsee
