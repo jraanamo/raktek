@@ -78,7 +78,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "rakentaminen-tekniikka@kinetik.mobi"
 
-    about_us = "<p>Rakentaminen+Tekniikka koostaa yhteenpaikkaan tietoa ja ratkaisuja joita pienrakentaja tarvitsee viedäkseen tärkeän projektinsa menestyksekkäästi päätökseen.</p>"
+    about_us = "<p>Rakentaminen+Tekniikka koostaa yhteen paikkaan tietoa ja ratkaisuja joita pienrakentaja voi hyödyntää viedäkseen tärkeän projektinsa menestyksekkäästi päätökseen.</p>"
     copyright = "Copyright (c) 2017, Rakentaminen+Tekniikka; kaikki oikeudet pidetään."
 
     # Format dates with Go's time formatting
